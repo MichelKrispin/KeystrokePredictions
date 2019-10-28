@@ -56,5 +56,4 @@ if os.path.exists('keystrokes.csv'):
     new_df.to_csv('keystrokes.csv', encoding='utf-8', index=False)
 else:
     df.to_csv('keystrokes.csv', encoding='utf-8', index=False)
-print(df)
 

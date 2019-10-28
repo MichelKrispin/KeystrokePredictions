@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn import svm
-from sklearn import preprocessing
 import readchar
 import time
 import string
@@ -40,10 +39,8 @@ while True:
 
 delta = delta.reshape(1, -1)
 df = pd.DataFrame(delta)
-# values = preprocessing.scale(df)
 # If word was correct reshape the delta and predict the correct value
 print('Probably {} typed {}'.format(
-    # clf.predict(values)[0],
     clf.predict(df)[0],
     input_word))
 
