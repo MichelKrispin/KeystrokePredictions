@@ -1,0 +1,4 @@
+venv/*
+venv/
+keystrokes.csv
+keystrokes_model.joblib
