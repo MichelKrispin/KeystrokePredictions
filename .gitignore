@@ -2,3 +2,5 @@ venv/*
 venv/
 keystrokes.csv
 keystrokes_model.joblib
+__pycache__/
+.idea/
